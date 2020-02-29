@@ -1,25 +1,32 @@
-C:\Users\mitchann\Downloads\flproject>mkdir myproject
+#### quick start
 
-C:\Users\mitchann\Downloads\flproject>cd myproject
+	# creating project
+	C:\Users\mitchann\Downloads\flproject>mkdir myproject
+	
+	C:\Users\mitchann\Downloads\flproject>cd myproject
 
-C:\Users\mitchann\Downloads\flproject\myproject>py -3 -m venv venv
+	# creating virtual environment	
+	C:\Users\mitchann\Downloads\flproject\myproject>py -3 -m venv venv
 
-C:\Users\mitchann\Downloads\flproject\myproject>venv\Scripts\activate
+	C:\Users\mitchann\Downloads\flproject\myproject>venv\Scripts\activate
 
-(venv) C:\Users\mitchann\Downloads\flproject\myproject>pip install Flask
+	# installing flask
+	(venv) C:\Users\mitchann\Downloads\flproject\myproject>pip install Flask
 
-C:\Users\mitchann\Downloads\flproject\myproject\hello.py
+	# hello world 
+	C:\Users\mitchann\Downloads\flproject\myproject\hello.py
 
-			from flask import Flask
-			app = Flask(__name__)
+				from flask import Flask
+				app = Flask(__name__)
 
-			@app.route('/')
-			def hello_world():
-				return 'Hello, World!'
+				@app.route('/')
+				def hello_world():
+					return 'Hello, World!'
 
-(venv) C:\Users\mitchann\Downloads\flproject\myproject>export FLASK_APP=hello.py
+	# executing 
+	(venv) C:\Users\mitchann\Downloads\flproject\myproject>export FLASK_APP=hello.py
 
-(venv) C:\Users\mitchann\Downloads\flproject\myproject>set FLASK_APP=hello.py
+	(venv) C:\Users\mitchann\Downloads\flproject\myproject>set FLASK_APP=hello.py
 
-(venv) C:\Users\mitchann\Downloads\flproject\myproject>python -m flask run
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+	(venv) C:\Users\mitchann\Downloads\flproject\myproject>python -m flask run
+	 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
