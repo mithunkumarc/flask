@@ -30,3 +30,8 @@
 
 	(venv) C:\Users\Downloads\flproject\myproject>python -m flask run
 	 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+
+#### tutorials : 
+
+	https://www.roytuts.com/category/python/flask/
