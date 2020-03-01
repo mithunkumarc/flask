@@ -1,4 +1,4 @@
-#### quick start
+#### quick start : always run in venv
 
 	# creating project
 	C:\Users\Downloads\flproject>mkdir myproject
